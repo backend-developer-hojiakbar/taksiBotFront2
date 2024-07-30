@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import styles from './SearchPage.module.css';
-
+let telegramId = callbackQuery.from_user.id;
 const SearchPage = () => {
     const originalOptions = {
         where: ['toshkent', 'bog\'dod-rishton-buvayda', 'qo\'qon', 'uchko\'prik'],
@@ -41,7 +41,7 @@ const SearchPage = () => {
         <div className={styles.searchContainer}>
             <div className={styles.selectContainer}>
                 <label className={styles.label}>
-                    Where:
+                    Where: {telegramId}
                     <select
                         className={styles.select}
                         name="where"
