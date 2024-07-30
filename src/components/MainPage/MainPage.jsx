@@ -29,7 +29,7 @@ const MainPage = () => {
 
     return (
         <div className={styles.container}>
-            <button className={styles.button} onClick={() => handleButtonClick('Give a passenger')}>Give a passengers</button>
+            <button className={styles.button} onClick={() => handleButtonClick('Give a passenger')}>Give a passengerssssssss</button>
             <button className={styles.button} onClick={() => handleButtonClick('Get a passenger')}>Get a passenger</button>
             <button className={styles.button} onClick={() => handleButtonClick('Give mail')}>Give mail</button>
             <button className={styles.button} onClick={() => handleButtonClick('Get mail')}>Get mail</button>
